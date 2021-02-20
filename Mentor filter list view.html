@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- Font Awesom CSS -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- google font lato -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Sefith Portal</title>
+  </head>
+  <body>
+    <!-- Start Nav Bar  -->
+    <nav class="navbar navbar-expand-lg navbar-light main_nav">
+      <div class="container mx-md-auto mx-xl-5 px-xxl-5">
+        <a class="navbar-brand pe-lg-5" href="Opportunities.html">
+          <img src="Data/logo.png" alt="" width="50" height="50" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav me-lg-auto mt-3 mt-md-0">
+            <!-- Search Box -->
+            <form action="" class="searching">
+              <div class="alignmentSBox">
+                <input
+                  class="InputSearch"
+                  type="search"
+                  placeholder="🔍Search"/>
+                
+              </div>
+            </form>
+          </div>
+
+          <div class="alignR">
+            <ul class="navbar-nav me-lg-5">
+               <li class="nav-item pe-lg-5">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item pe-lg-5">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="Opportunities.html"
+                  >Opportunities</a
+                >
+              </li>
+              <li class="nav-item pe-lg-5">
+                <a class="nav-link" href="#">Campus Drive</a>
+              </li>
+              <li class="nav-item pe-lg-3">
+                <a href="" class="nav-link">
+                  <i class="far fa-calendar-minus"></i>
+                </a>
+              </li>
+              <li class="nav-item pe-lg-3">
+                <a href="" class="nav-link"
+                  ><i class="far fa-comment-alt"></i
+                ></a>
+              </li>
+              <li class="nav-item pe-lg-3">
+                <a href="" class="nav-link"><i class="far fa-bell"></i></a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fas fa-ellipsis-h"></i>
+                </a>
+                <ul
+                  class="dropdown-menu setting_menu me-auto"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Profile Setting</a></li>
+                  <li><a class="dropdown-item" href="#">Help</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Logout</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Nav Bar  -->
+    <!-- Start Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="left_container">
+            <div class="filter_header">
+              <h1 class="filter_txt">
+                <img src="Data/icons/filter.png" alt="" />
+                Filters
+              </h1>
+            </div>
+            <div class="left_status">
+              <div class="toshow">
+                <label for="" class="l_Status pb-2">SortBy</label>
+                <i class="fas fa-chevron-right"></i>
+              </div>
+              <div class="tohide">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label
+                    class="form-check-label left_txt"
+                    for="flexCheckChecked">Most Relevant</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    value=""
+                    id="flexCheckChecked"
+                  />
+                  <label
+                    class="form-check-label left_txt"
+                    for="flexCheckChecked"> Recent</label>
+                </div>
+               
+              </div>
+            </div>
+
+             <div class="left_status pt-3 pb-3">
+              <div class="toshow">
+                <label for="" class="l_Status pb-2">Skills</label>
+                <i class="fas fa-chevron-right"></i>
+              </div>
+              <div class="tohide">
+                <!-- //input Field 
+                <div class="left_input_fields my-2">-->
+                 
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked/>
+                  <label
+                    class="form-check-label left_txt"
+                    for="flexCheckChecked">
+                    Category1
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"/>
+                  <label
+                    class="form-check-label left_txt"
+                    for="flexCheckChecked">
+                     Category1
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"/>
+                  <label
+                    class="form-check-label left_txt"
+                    for="flexCheckChecked">
+                     Category1
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"/>
+                  <label
+                    class="form-check-label left_txt"
+                    for="flexCheckChecked">
+                     Category1
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                  />
+                  <label
+                    class="form-check-label left_txt"
+                    for="flexCheckChecked">
+                    Category1
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="left_status pt-3 pb-3">
+              <div class="toshow">
+                <label for="" class="l_Status pb-2">Experience</label>
+                 <i class="fas fa-chevron-right"></i>
+              </div>
+              <div class="tohide">
+                <!-- //input Field 
+                <div class="left_input_fields my-2">-->
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    value=""
+                    id="flexCheckChecked"/>
+                  <label
+                    class="form-check-label left_txt"
+                    for="flexCheckChecked">
+                    Level1
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    value=""
+                    id="flexCheckChecked"/>
+                  <label
+                    class="form-check-label left_txt"
+                    for="flexCheckChecked">
+                    Level2
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    value=""
+                    id="flexCheckChecked"
+                  />
+                  <label
+                    class="form-check-label left_txt"
+                    for="flexCheckChecked">
+                    Level3
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="left_status pt-3 mb-4">
+              <div class="toshow">
+                <label for="" class="l_Status pb-2">Location</label>
+                <i class="fas fa-chevron-right"></i>
+              </div>
+              <div class="tohide">
+                <!-- <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Full Time
+                  </label>
+                  <label class="ms-auto" style="float: right" for="">123</label>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Right Container -->
+        <div class="col-sm-7 col-sm-8 col-lg-8 mx-auto">
+          <div class="container ms-lg-4 mt-3">
+            <div class="row">
+              <div class="col-6">
+                <label class="app_head_txt" for="">Find Mentorship</label>
+              </div>
+              <div class="col-6">
+                <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"/>
+                  <label
+                    class="form-check-label left_txt"
+                    for="flexCheckChecked">
+                     Programes
+                  </label>
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"/>
+                  <label
+                    class="form-check-label left_txt"
+                    for="flexCheckChecked">
+                     Session
+                  </label>
+                <div class="post_btn me-5" style="float: right">
+                  <img src="Data/icons/four_grid.png" alt="" />
+                </div>
+                <div class="post_btn me-5" style="float: right">
+                  <img src="Data/icons/four_grid.png" alt="" />
+              </div>
+            </div>
+            <div > </br></br></br></br>
+              <label class="app_head_txt" for="">Recomended Programes</label>
+             <a href=""class="post_btn me-5" style="float: right">View all</div></a>
+            <!-- Start All Card Container -->
+              <div class="candidate_list_card my-2">
+                      <div class="row mx-auto">
+                        <div class="col-sm-2 my-auto">
+                          <div class="text-center">
+                            <img src="Data/icons/profile_icon.png" alt="" />
+                          </div>
+                        </div>
+                        <div class="col-sm-3 my-auto">
+                          <div class="first_colm text-center text-lg-start">
+                            <label for="">Progame Name</label>
+                            <div class="col-sm-2 text-lg-center my-auto">
+                          <div class="3rd_colm text-center text-lg-start">
+                            <i
+                              class="far fa-bookmark"
+                              style="color: #202b67"
+                            ></i>
+                          </div>
+                        </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-3 my-auto">
+                          <div class="second_colm text-center text-lg-start">
+                            <label for="">UX Design</label>
+                          </div>
+                        </div>
+                        <div class="col-sm-2 text-lg-center my-auto">
+                          <div class="3rd_colm text-center text-lg-start">
+                            
+
+
+
+<button class="bt1">Preview</button>
+                            
+                          </div>
+                        </div>
+                        <div class="col-sm-2 text-center my-auto">
+                          <!-- btns -->
+                          <div class="row float-lg-end">
+                            <div class="topBtn py-2">
+                              <button href="">Enroll</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Candidate card -->
+                    <!-- Start Candidate card -->
+                    <div class="candidate_list_card my-2">
+                      <div class="row mx-auto">
+                        <div class="col-sm-2 my-auto">
+                          <div class="text-center">
+                            <img src="Data/icons/profile_icon.png" alt="" />
+                          </div>
+                        </div>
+                        <div class="col-sm-3 my-auto">
+                          <div class="first_colm text-center text-lg-start">
+                            <label for="">Progame Name</label>
+                            <div class="col-sm-2 text-lg-center my-auto">
+                          <div class="3rd_colm text-center text-lg-start">
+                            <i
+                              class="far fa-bookmark"
+                              style="color: #202b67"
+                            ></i>
+                          </div>
+                        </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-3 my-auto">
+                          <div class="second_colm text-center text-lg-start">
+                            <label for="">UX Design</label>
+                          </div>
+                        </div>
+                        <div class="col-sm-2 text-lg-center my-auto">
+                          <div class="3rd_colm text-center text-lg-start">
+                            
+
+<button class="bt1">Preview</button>
+
+
+
+                          </div>
+                        </div>
+                        <div class="col-sm-2 text-center my-auto">
+                          <!-- btns -->
+                          <div class="row float-lg-end">
+                            <div class="topBtn py-2">
+                              <button href="">Enroll</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Candidate card -->
+                    <!-- Start Candidate card -->
+                      <div class="candidate_list_card my-2">
+                      <div class="row mx-auto">
+                        <div class="col-sm-2 my-auto">
+                          <div class="text-center">
+                            <img src="Data/icons/profile_icon.png" alt="" />
+                          </div>
+                        </div>
+                        <div class="col-sm-3 my-auto">
+                          <div class="first_colm text-center text-lg-start">
+                            <label for="">Progame Name</label>
+                            <div class="col-sm-2 text-lg-center my-auto">
+                          <div class="3rd_colm text-center text-lg-start">
+                            <i
+                              class="far fa-bookmark"
+                              style="color: #202b67"
+                            ></i>
+                          </div>
+                        </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-3 my-auto">
+                          <div class="second_colm text-center text-lg-start">
+                            <label for="">UX Design</label>
+                          </div>
+                        </div>
+                        <div class="col-sm-2 text-lg-center my-auto">
+                          <div class="3rd_colm text-center text-lg-start">
+                            
+                          <button class="bt1">Preview</button>
+
+
+
+                            
+                          </div>
+                        </div>
+                        <div class="col-sm-2 text-center my-auto">
+                          <!-- btns -->
+                          <div class="row float-lg-end">
+                            <div class="topBtn py-2">
+                              <button href="">Enroll</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div > </br></br></br></br>
+              <label class="app_head_txt" for="">Recomended Programes</label>
+             <a href=""class="post_btn me-5" style="float: right">View all</div></a>
+                    <!-- End Candidate card -->
+                    <!-- Start Candidate card -->
+                       <div class="candidate_list_card my-2">
+                      <div class="row mx-auto">
+                        <div class="col-sm-2 my-auto">
+                          <div class="text-center">
+                            <img src="Data/icons/profile_icon.png" alt="" />
+                          </div>
+                        </div>
+
+                        <div class="col-sm-3 my-auto">
+                          <div class="first_colm text-center text-lg-start">
+                            <label for="">Progame Name</label>
+                            <div class="col-sm-2 text-lg-center my-auto">
+                          <div class="3rd_colm text-center text-lg-start">
+                            <i
+                              class="far fa-bookmark"
+                              style="color: #202b67"
+                            ></i>
+                          </div>
+                        </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-3 my-auto">
+                          <div class="second_colm text-center text-lg-start">
+                            <label for="">UX Design</label>
+                          </div>
+                        </div>
+                        <div class="col-sm-2 text-lg-center my-auto">
+                          <div class="3rd_colm text-center text-lg-start">
+                            
+
+<button class="bt1">Enroll</button>
+
+
+                            
+                          </div>
+                        </div>
+                        <div class="col-sm-2 text-center my-auto">
+                          <!-- btns -->
+                          <div class="row float-lg-end">
+                            <div class="topBtn py-2">
+                              <button href="">BookNow</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                       <div class="candidate_list_card my-2">
+                      <div class="row mx-auto">
+                        <div class="col-sm-2 my-auto">
+                          <div class="text-center">
+                            <img src="Data/icons/profile_icon.png" alt="" />
+                          </div>
+                        </div>
+                        <div class="col-sm-3 my-auto">
+                          <div class="first_colm text-center text-lg-start">
+                            <label for="">Progame Name</label>
+                            <div class="col-sm-2 text-lg-center my-auto">
+                          <div class="3rd_colm text-center text-lg-start">
+                            <i
+                              class="far fa-bookmark"
+                              style="color: #202b67"
+                            ></i>
+                          </div>
+                        </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-3 my-auto">
+                          <div class="second_colm text-center text-lg-start">
+                            <label for="">UX Design</label>
+                          </div>
+                        </div>
+                        <div class="col-sm-2 text-lg-center my-auto">
+                          <div class="3rd_colm text-center text-lg-start">
+                            
+
+<button class="bt1">Enroll</button>
+
+
+                            
+                          </div>
+                        </div>
+                        <div class="col-sm-2 text-center my-auto">
+                          <!-- btns -->
+                          <div class="row float-lg-end">
+                            <div class="topBtn py-2">
+                              <button href="">BookNow</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                       <div class="candidate_list_card my-2">
+                      <div class="row mx-auto">
+                        <div class="col-sm-2 my-auto">
+                          <div class="text-center">
+                            <img src="Data/icons/profile_icon.png" alt="" />
+                          </div>
+                        </div>
+                        <div class="col-sm-3 my-auto">
+                          <div class="first_colm text-center text-lg-start">
+                            <label for="">Progame Name</label>
+                            <div class="col-sm-2 text-lg-center my-auto">
+                          <div class="3rd_colm text-center text-lg-start">
+                            <i
+                              class="far fa-bookmark"
+                              style="color: #202b67"
+                            ></i>
+                          </div>
+                        </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-3 my-auto">
+                          <div class="second_colm text-center text-lg-start">
+                            <label for="">UX Design</label>
+                          </div>
+                        </div>
+                        <div class="col-sm-2 text-lg-center my-auto">
+                          <div class="3rd_colm text-center text-lg-start">
+                            
+
+
+
+<button class="bt1">Enroll</button>
+                            
+                          </div>
+                        </div>
+                        <div class="col-sm-2 text-center my-auto">
+                          <!-- btns -->
+                          <div class="row float-lg-end">
+                            <div class="topBtn py-2">
+                              <button href="">BookNow</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Candidate card -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End All Card Container -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Start Popup Screen -->
+
+    <!-- Modal -->
+    
+    <!-- End Popup Screen -->
+
+    <!-- linked stripts  -->
+    <script src="js/jQuery.js"></script>
+    <!-- popper for Bootstrap -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.js"></script>
+    <!-- Font Awesom JS -->
+    <script src="js/all.min.js"></script>
+    <!-- Custom JS Script -->
+    <script src="js/jQueryScript.js"></script>
+  </body>
+</html>
